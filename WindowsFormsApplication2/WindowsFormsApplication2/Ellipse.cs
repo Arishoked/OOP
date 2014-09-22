@@ -8,11 +8,11 @@ using System.Drawing;
 
 namespace OOP
 {
-    class Rectangle : Shape
+    class Ellipse : Shape
     {
         public override void Draw(Graphics graphics, Point point, Point point1)
         {
-            graphics.DrawRectangle(pen, point.X, point.Y, point1.X,point1.Y);
+            graphics.DrawEllipse(pen, point.X, point.Y, point1.X, point1.Y);
         }
     }
 }
